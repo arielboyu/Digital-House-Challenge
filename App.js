@@ -1,20 +1,23 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import Index from "./index";
+import { Provider } from "react-redux";
+import store from "./redux/store/index";
+import { useFonts } from "expo-font";
+import Font from "./assets/fonts/avenir_next_lt_w01_regular.ttf"
+
+
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
+  const [fontsLoaded] = useFonts({
+    "Avenir": Font,
+  });
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+  if (!fontsLoaded) {
+    return ""
+  } else {
+    return (
+      <Provider store={store}>
+        <Index />
+      </Provider>
+    );
+  }
+}
