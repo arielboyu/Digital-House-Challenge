@@ -9,6 +9,9 @@ Para correr el proyecto debemos correr npm install y nmp start en la carpeta rai
     <img src='blob:null/d92e4f7d-e8aa-447c-8368-f2b0fc07a4e1' </img>
 </p>
 
+<p align='center'>
+    <img src='blob:null/191766fc-8a9c-4b87-bc17-5182861aa696' </img>
+</p>
 
 
 
