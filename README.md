@@ -3,14 +3,13 @@ Este Proyecto fue creado con React Native y Expo, se utilizó Redux para almacen
 
 Para correr el proyecto debemos correr npm install y nmp start en la carpeta raiz . 
 
-
-
-<p align='center'>
-    <img src='blob:null/d92e4f7d-e8aa-447c-8368-f2b0fc07a4e1' </img>
-</p>
+Adjunto a continuación algunas capturas del flujo de filtros y detalle del producto.
 
 <p align='center'>
-    <img src='blob:null/191766fc-8a9c-4b87-bc17-5182861aa696' </img>
+    <img  width="220px" src='https://i.ibb.co/xsrFqrG/Screenshot-20230126-041105.png' </img>
+     <img  width="220px" src='https://i.ibb.co/BNfh5sz/Screenshot-20230126-041916.png' </img>
+         <img  width="220px" src='https://i.ibb.co/2MTHTyj/Screenshot-20230126-041932.png' </img>
+              <img  width="220px" src='https://i.ibb.co/xfFGSmq/Screenshot-20230126-000257.png' </img>
 </p>
 
 
